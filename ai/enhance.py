@@ -42,7 +42,7 @@ def process_single_item(chain, item: Dict, language: str) -> Dict:
         """
         try:
             resp = requests.post(
-                "https://spam.dw-dengwei.workers.dev",
+                "https://profanity-api.yexuanlan.workers.dev",
                 json={"text": content},
                 timeout=5
             )
